@@ -1,0 +1,18 @@
+{
+  "drop_columns": [
+    "area_living"
+  ],
+  "drop_rows_if_na": [
+    "floor",
+    "total_floors",
+    "series"
+  ],
+  "build_year_by_material": {
+    "кирпичный": 2022.0,
+    "монолитный": 2023.0,
+    "панельный": 1992.0
+  },
+  "build_year_global_median": 2022.0,
+  "is_old_threshold": 2000,
+  "condition_mode": "евроремонт"
+}

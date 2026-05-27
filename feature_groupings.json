@@ -1,0 +1,66 @@
+{
+  "condition_unfinished_values": [
+    "не достроено",
+    "под самоотделку (псо)"
+  ],
+  "series_groups": {
+    "107 серия": "low",
+    "106 серия улучшенная": "low",
+    "105 серия улучшенная": "low",
+    "108 серия": "low",
+    "элитка": "low",
+    "малосемейка": "mid",
+    "индивид. планировка": "mid",
+    "сталинка": "mid",
+    "104 серия улучшенная": "mid",
+    "106 серия": "high",
+    "пентхаус": "high",
+    "хрущевка": "high",
+    "105 серия": "high",
+    "104 серия": "high"
+  },
+  "series_group_counts": {
+    "low": 5033,
+    "mid": 1033,
+    "high": 1050
+  },
+  "series_group_medians_usd_per_sqm": {
+    "low": 1400.0,
+    "mid": 1450.0,
+    "high": 1571.4
+  },
+  "series_group_quantile_cuts": {
+    "q_low": 1415.6746031746031,
+    "q_high": 1537.999452654625
+  },
+  "weak_spread_threshold": 30,
+  "weak_features_diagnostics": {
+    "offer_type": {
+      "spread_usd_per_sqm": 7.4,
+      "medians": {
+        "от агента": 1444.4,
+        "от собственника": 1451.9
+      }
+    },
+    "building_material": {
+      "spread_usd_per_sqm": 80.6,
+      "medians": {
+        "кирпичный": 1450.0,
+        "монолитный": 1419.4,
+        "панельный": 1500.0
+      }
+    },
+    "is_old": {
+      "spread_usd_per_sqm": 126.3,
+      "medians": {
+        "0": 1416.7,
+        "1": 1543.0
+      }
+    }
+  },
+  "drop_features": [
+    "offer_type",
+    "condition",
+    "series"
+  ]
+}
