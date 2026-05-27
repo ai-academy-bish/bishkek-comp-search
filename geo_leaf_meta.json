@@ -1,0 +1,76 @@
+{
+  "params": {
+    "max_leaf_nodes": 10,
+    "min_samples_leaf": 150
+  },
+  "info": {
+    "n_leaves": 10,
+    "depth": 5,
+    "train_r2": 0.2177,
+    "cv_r2_mean": 0.2046,
+    "cv_r2_std": 0.0134,
+    "n_train": 6971
+  },
+  "leaf_stats": {
+    "5": {
+      "n": 376,
+      "median_ppsqm": 1128.3,
+      "mean_ppsqm": 1184.5,
+      "std_ppsqm": 247.1
+    },
+    "13": {
+      "n": 618,
+      "median_ppsqm": 1168.8,
+      "mean_ppsqm": 1204.0,
+      "std_ppsqm": 217.1
+    },
+    "16": {
+      "n": 198,
+      "median_ppsqm": 1250.0,
+      "mean_ppsqm": 1330.0,
+      "std_ppsqm": 279.1
+    },
+    "12": {
+      "n": 391,
+      "median_ppsqm": 1311.1,
+      "mean_ppsqm": 1292.3,
+      "std_ppsqm": 236.0
+    },
+    "14": {
+      "n": 377,
+      "median_ppsqm": 1365.9,
+      "mean_ppsqm": 1348.7,
+      "std_ppsqm": 250.0
+    },
+    "6": {
+      "n": 782,
+      "median_ppsqm": 1394.9,
+      "mean_ppsqm": 1396.6,
+      "std_ppsqm": 232.8
+    },
+    "18": {
+      "n": 571,
+      "median_ppsqm": 1420.0,
+      "mean_ppsqm": 1453.2,
+      "std_ppsqm": 331.9
+    },
+    "11": {
+      "n": 379,
+      "median_ppsqm": 1477.8,
+      "mean_ppsqm": 1462.6,
+      "std_ppsqm": 275.2
+    },
+    "8": {
+      "n": 3127,
+      "median_ppsqm": 1578.9,
+      "mean_ppsqm": 1585.9,
+      "std_ppsqm": 289.8
+    },
+    "17": {
+      "n": 152,
+      "median_ppsqm": 1651.4,
+      "mean_ppsqm": 1670.2,
+      "std_ppsqm": 371.3
+    }
+  }
+}
