@@ -1,0 +1,67 @@
+{
+  "best_params": {
+    "alpha": 1e-05,
+    "epsilon": 0.5,
+    "l1_ratio": 0.15
+  },
+  "best_cv_rmse_log": 0.18675123171915037,
+  "cv_metrics_oof": {
+    "log_rmse": 0.1869,
+    "log_mae": 0.1382,
+    "log_r2": 0.8666,
+    "usd_rmse": 36194.0,
+    "usd_mae": 17789.0,
+    "usd_r2": 0.7812,
+    "usd_mape_pct": 13.85,
+    "usd_median_ape_pct": 10.43
+  },
+  "residual_diagnostics": {
+    "resid_skew": 0.5214957887264771,
+    "resid_std": 0.18672962507725643,
+    "resid_kurt": 6.449805044403405
+  },
+  "feature_config": {
+    "text_col": "address",
+    "numeric_cols": [
+      "build_year",
+      "floor",
+      "total_floors",
+      "rooms",
+      "area_total",
+      "area_total_sq"
+    ],
+    "categorical_cols": [
+      "building_material",
+      "series_group"
+    ],
+    "binary_cols": [
+      "is_old",
+      "condition_unfinished"
+    ]
+  },
+  "preprocessing": {
+    "address": "HashingVectorizer(n_features=1024, ngram=(1,2), norm='l2')",
+    "numeric": "StandardScaler",
+    "categorical": "OneHotEncoder",
+    "target_transform": "log1p",
+    "polynomial": "area_total_sq = area_total**2"
+  },
+  "grid": {
+    "alpha": [
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "l1_ratio": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "epsilon": [
+      0.05,
+      0.1,
+      0.5
+    ]
+  },
+  "n_train": 7115
+}
