@@ -1,0 +1,59 @@
+{
+  "min_samples_leaf": 30,
+  "variations": [
+    {
+      "max_leaf_nodes": 10,
+      "actual_leaves": 10,
+      "depth": 4,
+      "train_r2": 0.2227,
+      "cv_r2_mean": 0.2113,
+      "cv_r2_std": 0.0144,
+      "overfit_gap": 0.0113
+    },
+    {
+      "max_leaf_nodes": 25,
+      "actual_leaves": 25,
+      "depth": 8,
+      "train_r2": 0.2973,
+      "cv_r2_mean": 0.2736,
+      "cv_r2_std": 0.0175,
+      "overfit_gap": 0.0237
+    },
+    {
+      "max_leaf_nodes": 50,
+      "actual_leaves": 50,
+      "depth": 13,
+      "train_r2": 0.3582,
+      "cv_r2_mean": 0.3156,
+      "cv_r2_std": 0.017,
+      "overfit_gap": 0.0426
+    },
+    {
+      "max_leaf_nodes": 100,
+      "actual_leaves": 100,
+      "depth": 15,
+      "train_r2": 0.3992,
+      "cv_r2_mean": 0.3264,
+      "cv_r2_std": 0.0223,
+      "overfit_gap": 0.0728
+    },
+    {
+      "max_leaf_nodes": 200,
+      "actual_leaves": 162,
+      "depth": 16,
+      "train_r2": 0.4194,
+      "cv_r2_mean": 0.3278,
+      "cv_r2_std": 0.0212,
+      "overfit_gap": 0.0916
+    },
+    {
+      "max_leaf_nodes": 400,
+      "actual_leaves": 162,
+      "depth": 16,
+      "train_r2": 0.4194,
+      "cv_r2_mean": 0.3278,
+      "cv_r2_std": 0.0212,
+      "overfit_gap": 0.0916
+    }
+  ]
+}
